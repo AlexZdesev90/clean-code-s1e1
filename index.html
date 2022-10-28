@@ -10,15 +10,15 @@
         charset="utf-8">
 </head>
 <body class="root">
-  <div class="aaa">
-    <img src="./eisenhower-matrix.jpg" alt="Eisenhower-Matrix image">
+  <div class="head-image">
+    <img class="image-matrix" src="./eisenhower-matrix.jpg" alt="Eisenhower-Matrix image">
     <a class="more-info" 
         href="https://goal-life.com/page/method/matrix-eisenhower">
         Want more details?
     </a>
   </div>
-  <div class="centered-main-page-element">
-    <p id="topSectionForAddingElementToList">
+  <div class="container-content">
+    <p id="head-section-add-element">
       <label class="add-label label" for="new-task">Add Item</label>
       <div class="task-row-wrapper">
         <input id="new-task" class="task" type="text">
@@ -26,7 +26,7 @@
       </div>
     </p>
     <h3 class="header">Todo</h3>
-    <ul class="list" id="incompleteTasks">
+    <ul class="list" id="incomplete-tasks">
       <li class="list-item">
         <input type="checkbox">
           <label class="task label">Pay Bills</label>
@@ -36,7 +36,7 @@
           <img class="image" src="./remove.svg" alt="remove">
         </button>
       </li>
-      <li class="list-item editMode">
+      <li class="list-item edit-mode">
         <input type="checkbox">
           <label class="task label">Go Shopping</label>
         <input type="text" value="Go Shopping" class="task">

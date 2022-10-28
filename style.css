@@ -5,30 +5,30 @@
   font-family: Lato, sans-serif;
 }
 
-.aaa {
+.head-image {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa img {
+.head-image .image-matrix {
   width: 100%;
 }
 
-.aaa .more-info {
+.head-image .more-info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .aaa { 
+  .head-image { 
     text-align: center;
   }
   
 }
 
-.centered-main-page-element {
+.container-content {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -162,11 +162,11 @@ input[type="text"]:focus {
   display: none;
 }
 
-.list-item.editMode input[type="text"] {
+.list-item.edit-mode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-.list-item.editMode .label {
+.list-item.edit-mode .label {
   display: none;
 }
